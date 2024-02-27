@@ -8,6 +8,20 @@ Before you begin, ensure you have Docker installed on your machine. You can down
 
 If you already have Docker installed, ensure that it is running prior to building and running the project.
 
+## Cloning the Project
+
+Clone the repository with the following command
+
+```bash
+git clone https://github.com/msacco8/Patient-Manager.git
+```
+
+Navigate to the root directory of the cloned repository
+
+```bash
+cd Patient-Manager
+```
+
 ## Building the Docker Image
 
 In the root directory of the project, build each container and compose them with the following command:
