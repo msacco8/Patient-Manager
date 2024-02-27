@@ -1,0 +1,179 @@
+.medicationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.medCheckBox {
+  height: 25px;
+  background-color: grey;
+  border-radius: 20px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.medicationHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+}
+
+.cardContainer {
+  overflow-y: scroll;
+  height: 30vh;
+  width: 95%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.cardContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.medicationHeader p {
+  margin: 1px;
+}
+
+.medicationCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0;
+  padding-top: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.medicationCard:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.formContainer {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.formHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formHeader p {
+  margin: 1px;
+}
+
+.formButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.medInfo p {
+  margin: 2px;
+}
+
+.medDateInfo {
+  width: 15vw;
+}
+
+.takenDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medicationContainer button {
+  padding: 10px 20px;
+  background-color: rgb(75, 192, 192);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+  height: 50%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.medicationContainer button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.medicationContainer button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+.medicationContainer button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}

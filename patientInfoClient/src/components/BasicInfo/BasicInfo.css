@@ -1,0 +1,26 @@
+.infoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.dataContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dataField {
+  margin: 10px;
+}
+
+.nameField {
+  margin: 5px;
+  display: flex;
+  font-size: 20px;
+}

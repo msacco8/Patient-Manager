@@ -1,0 +1,28 @@
+.dashboardContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sideBar {
+  background-color: #f4f4f4;
+  color: black;
+  width: 20vw;
+}
+
+.mainContent {
+  display: flex;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  width: 80vw;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.middleContent {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 45vh;
+  display: flex;
+}
