@@ -30,8 +30,6 @@ The React app will not work until the server has populated the database.
 
 Running the project again after this will bypass the database loading as it will be already populated.
 
-Once this process finishes with no errors, you can access the React application locally at 
+Once this process finishes with no errors, you can access the React application locally at:
 
-```bash
 http://localhost:8080/
-```
